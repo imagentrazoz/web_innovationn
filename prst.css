@@ -1,0 +1,247 @@
+@font-face{
+  font-family:mifuente;
+  src:url(letra1.ttf);
+
+}
+@font-face{
+  font-family:mi;
+  src:url(tt.ttf);
+
+}
+@font-face{
+  font-family:ma;
+  src:url(ab.ttf);
+
+}
+
+
+*{
+	margin: 0; /*margen de la hoja*/
+	padding: 0; /*relleno*/
+}
+body{
+	background:url(ma1.jpg) no-repeat center top;
+	background-size: cover;
+	height: 100vh;
+}
+ #contenedor{
+ 	width: 1200px;/*ancho*/
+ 	height: 1000px;/*alto*/
+ 	background:#D8D8D8;	 /* quitar color*/
+ 	margin: 0.5mm auto; /* "auto" centrado*/
+ 	padding: 0.5mm;/* borde de afuera blanco*/
+
+ } 
+ #sidebar{
+ 	float: left;
+ 	height: 86%;
+ 	width: 20%;
+ 	border-radius: 2mm; /* borde del cuadro redondo*/
+ 	margin: 1mm;
+
+ }
+#sidebar{
+	background: #333;
+	color: #fff;
+	outline: 1px solid #2a2a2a;
+}
+#sidebar h2{
+	height: 50px;
+	font-family: mi;
+	font-size: 30px;
+	text-align: center;
+	padding: 15px;
+	background: #1D2220;
+}
+#sidebar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;					
+}
+#sidebar ul ul{
+	border:none;
+	display: none;
+	background: rgba(0,0,0,0.4);
+
+}
+
+#sidebar li{
+	font-family:arial;
+	border: 1px solid #2a2a2a;
+	transform: all 0.3s;
+}
+/*el hover es darle un color trasparente al mover el mause*/
+#sidebar li:hover{
+	background: #FF8000;
+	border-left: 5px solid #eee;
+}
+/*quitar decoraccion de subrayandos al desplegar*/
+#sidebar a{
+	font-size: 30px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 30px;
+
+}
+/*cuando pase el mause aparescan los submenus*/
+#sidebar ul li:hover ul{
+	display:block;
+	/*position:absolute; es cuando es vertical no mas*/
+}
+
+
+/*todo lo del nav*/
+
+
+ #nav{
+    float:right;
+ 	width: 78%;
+ 	height: 15%;
+ 	background: #fff;
+ 	border-radius: 1mm;
+ 	margin: 1mm;
+ }
+
+ #nav img{
+ 	  float:left;
+ 	width: 50%;
+ 	height: 100%;
+
+
+ }
+ #nav h3{
+ 	font-size: 30px;
+ 	color: #FF8000;
+ 	font-family: mi;
+ 	text-align: center;
+ }
+
+
+
+
+
+#section{
+	float:right;
+	height: 70%;
+	width: 78%;
+ 	background:#F2F2F2;
+	border-radius: 1mm;
+	margin: 1mm;
+ }
+
+#container{
+	margin:35px;
+	width: 550px;
+}
+table{
+	background-color:white;
+	text-align: left;
+	font-family: mi ;
+	font-size: 25px;
+	width:150%;
+	height: 20%;
+	border-radius: 3mm;
+ 
+}
+ thead{
+ 	text-align: center;
+ 	background: #1a2537;
+ 	border-bottom: solid 5px #0f362d;
+ 	color:white;
+ 
+ }/*"nth-child(even)"" escoge solamente los hijos par*/
+
+th{
+	padding: 20px 20px;
+}
+td{
+	
+	width: 30%;
+	font-size: 30px;
+	padding: 10px;
+	border: none
+}
+
+input[type="text"],input[type="date"]{
+	font-size: 20px;
+	width: 90%;
+	padding: 20px;
+	border: none;
+}
+
+ tr:nth-child(even){
+ 	background: #ddd;
+ }
+ /*"hover" significado iluminar*/
+ tr:hover td{
+ 	background: #FE9A2E;
+ 	color: white;
+
+ }
+
+ .boton-registro{
+ 	float:right;
+ 	font-family: ab;
+	border: none;
+	outline: none;/*quita subcuadro*/
+	width: 40%;
+	color: white;
+	font-size: 30px;
+	background: #1a2537;
+	padding: 10px 10px;
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+.boton-registro:hover{
+	background: cadetblue;
+}
+ .boton-borrar{  
+    float: left;  
+ 	font-family: ab;
+	border: none;
+	outline: none;/*quita subcuadro*/
+	width: 40%;
+	color: white;
+	font-size: 30px;
+	background: #1a2537;
+	padding: 10px 10px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.boton-borrar:hover{
+	background: cadetblue;
+	   }
+
+
+#footer{
+	float:left;
+	height:12%; 
+	width: 99%;
+ 	background: #F2F2F2;
+ 	border-radius: 1mm;
+ 	margin: 1mm;
+ 	position: relative;
+ }
+ 
+
+
+ #footer img{
+ 	width: 100%;
+ 	height: 100%;
+ 	position: absolute;
+ 
+
+
+
+ }
+  #footer h4{
+  	position: relative;
+  	text-align: right;
+  	font-size: 20px;
+    color: #fff;
+    
+
+ }
+ 

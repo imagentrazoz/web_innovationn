@@ -1,0 +1,77 @@
+<DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Primer Ejemplo De HTML5">
+		<meta name="keywords" content="HTML5,CSS3,JavaScript">
+		<title>FACTURA</title>
+		<link rel="stylesheet" href="prst.css">
+	</head>
+	<body>
+		<div id="contenedor">
+			<div id="sidebar">
+		<h2>MENU</h2>
+			<ul>
+				<li ><a href="proveedor.html">Proveedor</a>
+		
+</li>
+				<li ><a href="productos.html">Productos</a></li>
+				<li ><a href="compra.html">Registrar Compra</a></li>
+				<li ><a href="generaf.html">Generar Factura</a> </li>
+				<li ><a href="consulta.html"> Consultar Factura </a>
+				</li>
+		</ul>
+		</div>
+			<div id="nav">
+			<img src=logo.jpg></td>
+			<br><br>
+			<h3 >Teléfono:286781-7027401<br>Carrera 13 a #90-15</h3>
+
+			</div>
+			<div id="section">
+				<div id="container">
+					<table>
+						<form>
+							<thead>
+					<tr>
+						<th Colspan=2>GENERAR FACTURA</th>
+						
+					   </tr>
+				         </thead>
+							<tr>
+							<td >Codigo Factura:</td>
+			                <td > <input type=text  name="cod factura"   pattern="(1|2|3|4|5|6|7|8|9)+" title="solo numeros de 6 caracteres " maxlength=6   placeholder="codigo"  autofocus class="input"></td>
+			            </tr>
+			            <tr>
+							<td >Codigo Producto:</td>
+			                <td > <input type=text  name="Cod producto"  maxlength=20   placeholder="Cod producto" class="input" ></td>
+			            </tr>
+			             <tr>
+							<td >Fecha:</td>
+			                <td > <input type=date  name=date   maxlength=20   placeholder="date" class="input" ></td>
+			            </tr>
+			             <tr>
+							<td >Subtotal:</td>
+			                <td > <input type=text  name=cantidad   pattern="(1|2|3|4|5|6|7|8|9)+" title="solo numeros 	"  maxlength=20   placeholder="cantidad" class="input" ></td>
+			            </tr>
+			             <tr>
+							<td >iva:</td>
+			                <td > <input type=text  name=iva  pattern="(1|2|3|4|5|6|7|8|9)%+"title="numero y % " maxlength=3   placeholder="Iva" class="input"></td>
+			            </tr>
+			              <tr>
+							<td >Total:</td>
+			                <td > <input type=text  name=totalp   maxlength=20   placeholder="Total" class="input"></td>
+			            </tr>
+					</table><br>
+				<input type="submit" name="" value="Registrar" class="boton-registro"> 
+				<input type="reset" name="" value="Borrar" class="boton-borrar"> 
+				</form>
+			</div>
+		</div>
+			<div id="footer">
+				<img src=pie.jpg></td><br>
+				<h4><marquee >DISEÑADORES<br>Brayan florez -Yesica pinzon <br>Jonathan corredor- Dayana bernal <br>Carlos hoyos - Maria Isabel </marquee></h4>
+			</div>		
+				</div>
+	</body>
+	</html>

@@ -1,0 +1,18 @@
+
+body{
+	background-color: #8A0868;
+
+
+
+}
+@font-face{
+  font-family:mifuente;
+  src:url(letra2.otf);
+
+}
+
+h1{
+font-size: 150px;
+color: #fff;
+font-family: mifuente;
+}
